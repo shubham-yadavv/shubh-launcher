@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Shubh Launcher",
+    "description": "Quick launch Shubh",
+    "version": "1.0.0",
+    "icons": { "128": "profile2.png" },
+    "browser_action": {
+      "default_icon": "profile2.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
